@@ -1,0 +1,7 @@
+i-Know 2017 Data Science Challenge: Task announcement file manifest
+
+01 - return_file_template.csv - template for turning in results.
+02 - task_description.pdf - description of the data science challenge task.
+03 - training_set.xml - data set containing entries with atom positions and energy values, should be used to train (and validate) your model.
+04 - validation_set.xml - data set containing entries with atom positions, should be used to predict energy values based on model built with [03], results can be turned in as described in [02] by filling [01].
+05 - file_manifest.txt (this file).
