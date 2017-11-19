@@ -14,7 +14,7 @@ A simple approximation algorithm is used to calculate the euclidean distance for
 lattice. The accumulated distance is used as a proxy metric to evaluate the similarity between two structures.
 The predicted energy of the new structure is than the average of the three most similar lookup structures.
 
-* The second (more complex) [solution](/src/Final Submission with Simple.ipynb) is using the results of the first lookup and tries to refine it
+* The second (more complex) [solution](/src/simple_final_submission.ipynb) is using the results of the first lookup and tries to refine it
 by performing a second lookup based on a subset of the original lookup table (defining the subset as a
 fraction of lookup table that was closest evaluated by the first lookup operation) taking into
 account the variance in the average mesh size/distance. This is another approximation of similarity between
