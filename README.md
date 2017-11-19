@@ -9,7 +9,7 @@ The challenge is described in the official [guide](task_description.pdf)
 # Solutions
 I provide two solutions, both based on using a lookup table that generated out of the training set.
 
-* The first (simple) [solution](/src/Final\ Submission.ipynb) is performing a single lookup based on the lattice structure.
+* The first (simple) [solution](/src/final_submission.ipynb) is performing a single lookup based on the lattice structure.
 A simple approximation algorithm is used to calculate the euclidean distance for each atom pair in the
 lattice. The accumulated distance is used as a proxy metric to evaluate the similarity between two structures.
 The predicted energy of the new structure is than the average of the three most similar lookup structures.
